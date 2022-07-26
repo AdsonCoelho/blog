@@ -1,0 +1,6 @@
+/*Iniciando margens e espaço do novegador com 0*/
+*{
+    margin: 0;
+    padding: 0;
+    background-color: greenyellow;
+}
