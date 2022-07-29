@@ -3,7 +3,7 @@
 {% block title %} Register {% endblock %}
 
 {% block content %}
-    <form>
+    <form method="post">
         <label for="username">Username: </label>
         <input id="username" name="username" required>
         <label for="email">E-mail: </label>
@@ -12,4 +12,4 @@
         <input id="password" name="password" required type="password">
         <input type="submit" value="Register">
     </form>
-{% endblock %} 
+{% endblock %}
